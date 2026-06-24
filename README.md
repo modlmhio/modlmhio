@@ -1,35 +1,27 @@
-# MODLMH.io Chính Thức
+# MODLMH GitHub Pages
 
-Chào mừng bạn đến với hồ sơ GitHub chính thức của **MODLMH.io**.
+Bộ code tĩnh được chuyển từ HTML WordPress của MODLMH.io để chạy trên GitHub Pages.
 
-**MODLMH.io** là nền tảng nội dung dành cho người dùng Android, tập trung vào các chủ đề như game mobile, ứng dụng, hướng dẫn sử dụng, ghi chú cập nhật và tài nguyên tham khảo được sắp xếp rõ ràng.
+## Cấu trúc
 
-## Nội dung chúng tôi chia sẻ
+```txt
+index.html
+robots.txt
+sitemap.xml
+assets/github-fix.css
+```
 
-* Tài nguyên hướng dẫn game Android
-* Thông tin ứng dụng Android
-* Ghi chú cập nhật nội dung
-* Tài liệu tham khảo theo danh mục
-* Câu hỏi thường gặp dành cho người dùng
-* Thông tin hỗ trợ nhận diện thương hiệu MODLMH.io
+## Cách dùng
 
-## Website chính thức
+1. Tạo repo GitHub mới, ví dụ `modlmh-hub`
+2. Upload toàn bộ file trong thư mục này lên repo
+3. Vào `Settings → Pages`
+4. Chọn `Deploy from a branch`
+5. Chọn branch `main`, folder `/root`
+6. Bấm `Save`
 
-Truy cập website chính thức của MODLMH.io tại:
+## Lưu ý
 
-https://modlmh.io/
-
-## Các nhóm nội dung chính
-
-* Game Android
-* Ứng dụng Android
-* Hướng dẫn người dùng
-* Câu hỏi thường gặp
-* Tài nguyên tham khảo
-* Thông tin cập nhật
-
-## Mục đích của hồ sơ GitHub này
-
-Hồ sơ GitHub này được tạo nhằm tổng hợp các tài nguyên công khai, tài liệu giới thiệu và liên kết chính thức liên quan đến MODLMH.io.
-
-Để xem đầy đủ nội dung, bài viết mới nhất và các tài nguyên chính thức, vui lòng truy cập website MODLMH.io.
+- File dùng ảnh/CSS public từ `https://modlmh.io/` để giao diện giống website gốc.
+- Nếu đổi username hoặc repo, sửa lại `robots.txt` và `sitemap.xml`.
+- `index.html` giữ link về website chính MODLMH.io.
